@@ -5,7 +5,7 @@ It allows the creation of log files with the keywords: **INFO**, **WARN**, **ERR
 A new file is generated every exact hour.
 
 ## Install
-go get https://github.com/barrantesosvaldo/go-logs
+go get github.com/barrantesosvaldo/go-logs
 
 ## Usage
 First you have to initialize the logs with:
