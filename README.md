@@ -31,6 +31,7 @@ func main() {
     // initialize logs
     gologs.Init()
   
+    // using logs
     gologs.Info.Println("This is an information log")
     gologs.Warning.Println("This is a warning log")
     gologs.Error.Println("This is an error log")
