@@ -29,7 +29,7 @@ import (
 
 func main() {
   // initialize logs
-	gologs.Init()
+  gologs.Init()
   
   gologs.Info.Println("This is an information log")
   gologs.Warning.Println("This is a warning log")
