@@ -24,7 +24,7 @@ By default the names of the generated files will have their names with the date 
 package main
 
 import (
-	"github.com/barrantesosvaldo/go-logs"
+  "github.com/barrantesosvaldo/go-logs"
 )
 
 func main() {
