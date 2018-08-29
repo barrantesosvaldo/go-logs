@@ -1,7 +1,6 @@
 package gologs
 
 import (
-	//"io"
 	"log"
 	"os"
 	"time"
@@ -43,8 +42,6 @@ func Init(args ...string) {
 					log.Fatalln("Failed to open log file:", err)
 				}
 			}
-
-			//multi := io.MultiWriter(logFile, os.Stdout)
 
 			Debug = log.New(logFile,
 				"DEBUG: ",
