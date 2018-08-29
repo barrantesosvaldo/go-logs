@@ -4,6 +4,8 @@ Create logs for Information, Warnings, Errors and Debugs.
 It allows the creation of log files with the keywords: **INFO**, **WARN**, **ERRO** and **DEBU** to record information, warnings, errors and debugs.
 A new file is generated every exact hour.
 
+This library is inspired by this post: https://www.ardanlabs.com/blog/2013/11/using-log-package-in-go.html
+
 ## Install
 go get github.com/barrantesosvaldo/go-logs
 
